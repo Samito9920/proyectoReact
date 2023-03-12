@@ -1,0 +1,21 @@
+#textoHistoria{
+    text-align: justify !important;
+    
+}
+#body-img{
+    width: 100%;
+}
+#parrafo{
+    width: 100%;
+  display: grid;
+  place-content: center;
+  background-color: #E5E7E9 ;
+}
+#division{
+    height: 80px;
+}
+#img{
+    width: 100%;
+  display: grid;
+  place-content: center; 
+}
