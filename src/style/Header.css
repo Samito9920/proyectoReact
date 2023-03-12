@@ -1,0 +1,16 @@
+*{
+    font-size: 18px;
+    font-family: cursive;
+}
+#header-img{
+width: 25%;
+}
+#header{
+    align-items: center;
+}
+
+#titulo{
+    font: bold;
+    font-size: 30px !important;
+}
+
