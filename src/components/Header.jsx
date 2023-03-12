@@ -14,7 +14,7 @@ function Header() {
             </div>
             <div className='vl'></div>
             <div className='p-2 m-3'>
-              <Navbar.Brand id='titulo' href="#home">La Mia Vida</Navbar.Brand>
+              <Navbar.Brand id='titulo' href="/">La Mia Vida</Navbar.Brand>
             </div>
           </div>
             <Navbar bg="dark" variant="dark" className='p-2'>

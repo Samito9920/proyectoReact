@@ -6,6 +6,7 @@ import ListGroup from "react-bootstrap/ListGroup"
 import restaurante from '../assets/restaurante.jpeg'
 import Card from "react-bootstrap/Card"
 import Header from "./Header";
+import Form from "./Form"
 import Footer from "./Footer";
 
 export default function Body() {
@@ -49,6 +50,8 @@ export default function Body() {
 
                 </div>
             </Container>
+            <Form/>
+            <Footer/>
         </>
     )
 }

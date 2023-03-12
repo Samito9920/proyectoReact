@@ -13,9 +13,7 @@ function App() {
   return (
    <>
       <Body/>
-      <Form/>
-      <Footer/>
-
+  
    </>
 )
 }
