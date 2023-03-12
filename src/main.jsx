@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import ErrorPage from './components/error-page'
 import App from './App'
 import Body from './components/Body'
+import Reservacion from './components/reservacion'
 
 import {
   createBrowserRouter,
@@ -21,7 +22,12 @@ const router = createBrowserRouter([
     path: "/body",
     element: <Body /> ,
     errorElement: <ErrorPage/>
-  },
+  },{
+    path: "/reservacion",
+    element: <Reservacion/>,
+    errorElement: <ErrorPage/>
+
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

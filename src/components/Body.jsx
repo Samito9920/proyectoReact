@@ -55,16 +55,11 @@ export default function Body() {
                         <img id="img-restaurant" src={restaurantedentro} />
                     </div>
                     <div className="p-2 m-2" id="parrafo">
-                    <Form />
-                       
+                        <Form />
+
                     </div>
                 </div>
-                
-                      
-                   
-
-
-       
+                <div id="division">  </div>
             </Container>
 
             <Footer />

@@ -20,8 +20,8 @@ function Header() {
             <Navbar bg="dark" variant="dark" className='p-2'>
               <Container>
                 <Nav className="justify-content-md-center">
-                  <Nav.Link href="/body">Reservas</Nav.Link>
-                  <Nav.Link href="#features">Menú</Nav.Link>
+                  <Nav.Link href="/reservacion">Reservas</Nav.Link>
+                  <Nav.Link href="/body">Menú</Nav.Link>
                   <Nav.Link href="#pricing">¿Quíenes Somos?</Nav.Link>
                 </Nav>
               </Container>
