@@ -8,11 +8,12 @@ import Card from "react-bootstrap/Card"
 import Header from "./Header";
 import Form from "./Form"
 import Footer from "./Footer";
+import restaurantedentro from '../assets/restaurantedentro.jpeg';
 
 export default function Body() {
     return (
         <>
-        <Header/>
+            <Header />
             <Container>
                 <div className="d-flex justify-content-center mb-2">
                     <div className="p-2">
@@ -49,9 +50,24 @@ export default function Body() {
                 <div id="division">
 
                 </div>
+                <div className="d-flex justify-content-center mb-2">
+                    <div className="p-2" id="img">
+                        <img id="img-restaurant" src={restaurantedentro} />
+                    </div>
+                    <div className="p-2 m-2" id="parrafo">
+                    <Form />
+                       
+                    </div>
+                </div>
+                
+                      
+                   
+
+
+       
             </Container>
-            <Form/>
-            <Footer/>
+
+            <Footer />
         </>
     )
 }
