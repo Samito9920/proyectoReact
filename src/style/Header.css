@@ -1,9 +1,9 @@
 *{
     font-size: 18px;
-    font-family: cursive;
+  
 }
 #header-img{
-width: 25%;
+width: 45%;
 }
 #header{
     align-items: center;
@@ -12,5 +12,15 @@ width: 25%;
 #titulo{
     font: bold;
     font-size: 30px !important;
+    font-family: cursive;
+    align-items: center;
 }
 
+.vl {
+  border-left:  solid black;
+  height: auto;
+
+}
+.container{
+    justify-content: center !important;
+}
