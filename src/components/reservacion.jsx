@@ -40,11 +40,13 @@ export default function reservacion() {
         })
     }
     const onDelete = async(id)=>{
-
+        console.log(id)
+        await deleteDoc(doc(db, 'restaurante', id))
+        getDatos();
     }
 
     const onUpdate =async(reservacion)=>{
-
+        
     }
     useEffect(() => {
         getDatos()
@@ -89,3 +91,11 @@ export default function reservacion() {
         </>
     )
 }
+
+export default function carEditar({id, form}){
+   
+    return(
+      <>
+      </>
+    )
+  }
