@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/esm/Container';
 import { BsFacebook } from "react-icons/bs";
-import { AiFillInstagram, AiTwotoneMail } from "react-icons/ai"
+import { AiFillInstagram, AiTwotoneMail,AiFillGithub } from "react-icons/ai"
 import { FaWhatsappSquare } from "react-icons/fa"
 import { BiDirections } from "react-icons/bi"
 import { BsFillTelephoneFill } from "react-icons/bs"
@@ -56,6 +56,14 @@ export default function Footer() {
                 </div>
                 <a href='#!' className='text-reset p-2'>
                   WhatsApp
+                </a>
+              </div>
+              <div className='d-flex flex-sm-row mb-2'>
+                <div className='p-2'>
+                  <AiFillGithub className='icon' />
+                </div>
+                <a href='https://github.com/Samito9920/proyectoReact/commits/main' className='text-reset p-2'>
+                 Commits
                 </a>
               </div>
             </Col>
